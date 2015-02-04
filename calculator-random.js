@@ -17,8 +17,8 @@ function changer (id, newValue) {
 }
 
 function calcRandom(){
-	var numAleatorio1 = Math.floor(Math.random()*1000);
-	var numAleatorio2 = Math.floor(Math.random()*1000);
+	var numAleatorio1 = Math.floor(Math.random()*10000000000000000);
+	var numAleatorio2 = Math.floor(Math.random()*10000000000000000);
 	var op = document.getElementById("op");
 	op.innerHTML = numAleatorio1.toString() + " + " + numAleatorio2.toString();
 }
